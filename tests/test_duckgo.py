@@ -6,7 +6,7 @@ import time
 
 def test_google_search():
     options = Options()
-    options.headless = False
+    options.headless = True
 
     driver = webdriver.Firefox(options=options)
     driver.get("https://duckduckgo.com/")
