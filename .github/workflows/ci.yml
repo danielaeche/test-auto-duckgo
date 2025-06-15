@@ -36,4 +36,7 @@ jobs:
         sudo mv geckodriver /usr/local/bin/
 
     - name: Run tests with pytest
-      run: pytest
+      run: |
+        export MOZ_HEADLESS=1
+        export DISPLAY=:99
+        pytest
