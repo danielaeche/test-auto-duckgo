@@ -1,0 +1,1078 @@
+1749992341896	geckodriver	INFO	Listening on 127.0.0.1:37583
+1749992341911	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofile5O8Pab"
+/home/daniela/snap/code/common/.cache/gio-modules/libgiolibproxy.so: undefined symbol: g_task_set_name
+Failed to load module: /home/daniela/snap/code/common/.cache/gio-modules/libgiolibproxy.so
+/home/daniela/snap/code/common/.cache/gio-modules/libgiognomeproxy.so: undefined symbol: g_task_set_name
+Failed to load module: /home/daniela/snap/code/common/.cache/gio-modules/libgiognomeproxy.so
+/home/daniela/snap/code/common/.cache/gio-modules/libgiognutls.so: undefined symbol: g_task_set_name
+Failed to load module: /home/daniela/snap/code/common/.cache/gio-modules/libgiognutls.so
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: missing or old libva-drm library.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1749992342346	Marionette	INFO	Marionette enabled
+1749992342349	Marionette	INFO	Listening on port 44069
+Read port: 44069
+1749992342489	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  InvalidSignatureError: Invalid content signature (main/partitioning-exempt-urls) using 'remote-settings.content-signature.mozilla.org-2025-07-30-19-19-34.chain'
+console.error: services.settings: 
+  main/partitioning-exempt-urls local data was corrupted
+console.warn: services.settings: main/partitioning-exempt-urls Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed again InvalidSignatureError: Invalid content signature (main/partitioning-exempt-urls) using 'remote-settings.content-signature.mozilla.org-2025-07-30-19-19-34.chain'
+console.error: (new InvalidSignatureError("Invalid content signature (main/partitioning-exempt-urls) using 'remote-settings.content-signature.mozilla.org-2025-07-30-19-19-34.chain'", "resource://services-settings/RemoteSettingsClient.sys.mjs", 169))
+[Child 23098, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 23098, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 23098, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 23098, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 23098, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 23098, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 23098, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 23098, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+1749992352126	Marionette	INFO	Stopped listening on port 44069
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1749992390531	geckodriver	INFO	Listening on 127.0.0.1:50813
+1749992390534	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilezgogvh"
+/home/daniela/snap/code/common/.cache/gio-modules/libgiolibproxy.so: undefined symbol: g_task_set_name
+Failed to load module: /home/daniela/snap/code/common/.cache/gio-modules/libgiolibproxy.so
+/home/daniela/snap/code/common/.cache/gio-modules/libgiognomeproxy.so: undefined symbol: g_task_set_name
+Failed to load module: /home/daniela/snap/code/common/.cache/gio-modules/libgiognomeproxy.so
+/home/daniela/snap/code/common/.cache/gio-modules/libgiognutls.so: undefined symbol: g_task_set_name
+Failed to load module: /home/daniela/snap/code/common/.cache/gio-modules/libgiognutls.so
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: missing or old libva-drm library.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1749992390976	Marionette	INFO	Marionette enabled
+1749992390979	Marionette	INFO	Listening on port 45677
+Read port: 45677
+1749992391108	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  InvalidSignatureError: Invalid content signature (main/partitioning-exempt-urls) using 'remote-settings.content-signature.mozilla.org-2025-07-30-19-19-34.chain'
+console.error: services.settings: 
+  main/partitioning-exempt-urls local data was corrupted
+console.warn: services.settings: main/partitioning-exempt-urls Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed again InvalidSignatureError: Invalid content signature (main/partitioning-exempt-urls) using 'remote-settings.content-signature.mozilla.org-2025-07-30-19-19-34.chain'
+console.error: (new InvalidSignatureError("Invalid content signature (main/partitioning-exempt-urls) using 'remote-settings.content-signature.mozilla.org-2025-07-30-19-19-34.chain'", "resource://services-settings/RemoteSettingsClient.sys.mjs", 169))
+[Child 23459, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 23459, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 23459, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 23459, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 23459, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 23459, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 23459, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 23459, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+1749992412419	Marionette	INFO	Stopped listening on port 45677
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1749992528755	geckodriver	INFO	Listening on 127.0.0.1:56479
+1749992528758	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileWhu07r"
+/home/daniela/snap/code/common/.cache/gio-modules/libgiolibproxy.so: undefined symbol: g_task_set_name
+Failed to load module: /home/daniela/snap/code/common/.cache/gio-modules/libgiolibproxy.so
+/home/daniela/snap/code/common/.cache/gio-modules/libgiognomeproxy.so: undefined symbol: g_task_set_name
+Failed to load module: /home/daniela/snap/code/common/.cache/gio-modules/libgiognomeproxy.so
+/home/daniela/snap/code/common/.cache/gio-modules/libgiognutls.so: undefined symbol: g_task_set_name
+Failed to load module: /home/daniela/snap/code/common/.cache/gio-modules/libgiognutls.so
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: missing or old libva-drm library.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1749992529176	Marionette	INFO	Marionette enabled
+1749992529179	Marionette	INFO	Listening on port 40519
+Read port: 40519
+1749992529407	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  InvalidSignatureError: Invalid content signature (main/partitioning-exempt-urls) using 'remote-settings.content-signature.mozilla.org-2025-07-30-19-19-34.chain'
+console.error: services.settings: 
+  main/partitioning-exempt-urls local data was corrupted
+console.warn: services.settings: main/partitioning-exempt-urls Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed again InvalidSignatureError: Invalid content signature (main/partitioning-exempt-urls) using 'remote-settings.content-signature.mozilla.org-2025-07-30-19-19-34.chain'
+console.error: (new InvalidSignatureError("Invalid content signature (main/partitioning-exempt-urls) using 'remote-settings.content-signature.mozilla.org-2025-07-30-19-19-34.chain'", "resource://services-settings/RemoteSettingsClient.sys.mjs", 169))
+[Child 23865, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 23865, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 23865, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 23865, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 23865, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 23865, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 23865, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 23865, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+1749992547000	Marionette	INFO	Stopped listening on port 40519
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1749992560964	geckodriver	INFO	Listening on 127.0.0.1:40693
+1749992560967	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileeilZFN"
+/home/daniela/snap/code/common/.cache/gio-modules/libgiolibproxy.so: undefined symbol: g_task_set_name
+Failed to load module: /home/daniela/snap/code/common/.cache/gio-modules/libgiolibproxy.so
+/home/daniela/snap/code/common/.cache/gio-modules/libgiognomeproxy.so: undefined symbol: g_task_set_name
+Failed to load module: /home/daniela/snap/code/common/.cache/gio-modules/libgiognomeproxy.so
+/home/daniela/snap/code/common/.cache/gio-modules/libgiognutls.so: undefined symbol: g_task_set_name
+Failed to load module: /home/daniela/snap/code/common/.cache/gio-modules/libgiognutls.so
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: missing or old libva-drm library.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1749992561450	Marionette	INFO	Marionette enabled
+1749992561454	Marionette	INFO	Listening on port 36827
+Read port: 36827
+1749992561576	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  InvalidSignatureError: Invalid content signature (main/partitioning-exempt-urls) using 'remote-settings.content-signature.mozilla.org-2025-07-30-19-19-34.chain'
+console.error: services.settings: 
+  main/partitioning-exempt-urls local data was corrupted
+console.warn: services.settings: main/partitioning-exempt-urls Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed again InvalidSignatureError: Invalid content signature (main/partitioning-exempt-urls) using 'remote-settings.content-signature.mozilla.org-2025-07-30-19-19-34.chain'
+console.error: (new InvalidSignatureError("Invalid content signature (main/partitioning-exempt-urls) using 'remote-settings.content-signature.mozilla.org-2025-07-30-19-19-34.chain'", "resource://services-settings/RemoteSettingsClient.sys.mjs", 169))
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+console.error: services.settings: 
+  blocklists/addons-bloomfilters Signature failed  InvalidSignatureError: Invalid content signature (blocklists/addons-bloomfilters) using 'remote-settings.content-signature.mozilla.org-2025-07-30-19-19-34.chain'
+console.error: services.settings: 
+  blocklists/addons-bloomfilters local data was corrupted
+console.warn: services.settings: blocklists/addons-bloomfilters Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  blocklists/addons-bloomfilters Signature failed again InvalidSignatureError: Invalid content signature (blocklists/addons-bloomfilters) using 'remote-settings.content-signature.mozilla.org-2025-07-30-19-19-34.chain'
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (blocklists/addons-bloomfilters) using 'remote-settings.content-signature.mozilla.org-2025-07-30-19-19-34.chain'
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.sys.mjs:169:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1021:13
+
+console.error: services.settings: 
+  main/devtools-compatibility-browsers Signature failed  InvalidSignatureError: Invalid content signature (main/devtools-compatibility-browsers) using 'remote-settings.content-signature.mozilla.org-2025-07-30-19-19-34.chain'
+console.error: services.settings: 
+  main/devtools-compatibility-browsers local data was corrupted
+console.warn: services.settings: main/devtools-compatibility-browsers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/devtools-compatibility-browsers Signature failed again InvalidSignatureError: Invalid content signature (main/devtools-compatibility-browsers) using 'remote-settings.content-signature.mozilla.org-2025-07-30-19-19-34.chain'
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/devtools-compatibility-browsers) using 'remote-settings.content-signature.mozilla.org-2025-07-30-19-19-34.chain'
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.sys.mjs:169:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1021:13
+
+console.error: services.settings: 
+  main/search-telemetry-v2 Signature failed  InvalidSignatureError: Invalid content signature (main/search-telemetry-v2) using 'remote-settings.content-signature.mozilla.org-2025-07-30-19-19-34.chain'
+console.error: services.settings: 
+  main/search-telemetry-v2 local data was corrupted
+console.warn: services.settings: main/search-telemetry-v2 Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/search-telemetry-v2 Signature failed again InvalidSignatureError: Invalid content signature (main/search-telemetry-v2) using 'remote-settings.content-signature.mozilla.org-2025-07-30-19-19-34.chain'
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/search-telemetry-v2) using 'remote-settings.content-signature.mozilla.org-2025-07-30-19-19-34.chain'
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.sys.mjs:169:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1021:13
+
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  InvalidSignatureError: Invalid content signature (main/partitioning-exempt-urls) using 'remote-settings.content-signature.mozilla.org-2025-07-30-19-19-34.chain'
+console.error: services.settings: 
+  main/partitioning-exempt-urls local data was corrupted
+console.warn: services.settings: main/partitioning-exempt-urls Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed again InvalidSignatureError: Invalid content signature (main/partitioning-exempt-urls) using 'remote-settings.content-signature.mozilla.org-2025-07-30-19-19-34.chain'
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/partitioning-exempt-urls) using 'remote-settings.content-signature.mozilla.org-2025-07-30-19-19-34.chain'
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.sys.mjs:169:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1021:13
+
+console.error: services.settings: 
+  blocklists/gfx Signature failed  InvalidSignatureError: Invalid content signature (blocklists/gfx) using 'remote-settings.content-signature.mozilla.org-2025-07-30-19-19-34.chain'
+console.error: services.settings: 
+  blocklists/gfx local data was corrupted
+console.warn: services.settings: blocklists/gfx Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  blocklists/gfx Signature failed again InvalidSignatureError: Invalid content signature (blocklists/gfx) using 'remote-settings.content-signature.mozilla.org-2025-07-30-19-19-34.chain'
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (blocklists/gfx) using 'remote-settings.content-signature.mozilla.org-2025-07-30-19-19-34.chain'
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.sys.mjs:169:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1021:13
+
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config) using 'remote-settings.content-signature.mozilla.org-2025-07-10-19-04-54.chain'
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed again InvalidSignatureError: Invalid content signature (main/doh-config) using 'remote-settings.content-signature.mozilla.org-2025-07-10-19-04-54.chain'
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/doh-config) using 'remote-settings.content-signature.mozilla.org-2025-07-10-19-04-54.chain'
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.sys.mjs:169:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1021:13
+
+console.error: services.settings: 
+  main/search-default-override-allowlist Signature failed  InvalidSignatureError: Invalid content signature (main/search-default-override-allowlist) using 'remote-settings.content-signature.mozilla.org-2025-07-30-19-19-34.chain'
+console.error: services.settings: 
+  main/search-default-override-allowlist local data was corrupted
+console.warn: services.settings: main/search-default-override-allowlist Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/search-default-override-allowlist Signature failed again InvalidSignatureError: Invalid content signature (main/search-default-override-allowlist) using 'remote-settings.content-signature.mozilla.org-2025-07-30-19-19-34.chain'
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/search-default-override-allowlist) using 'remote-settings.content-signature.mozilla.org-2025-07-30-19-19-34.chain'
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.sys.mjs:169:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1021:13
+
+console.error: services.settings: 
+  main/top-sites Signature failed  InvalidSignatureError: Invalid content signature (main/top-sites) using 'remote-settings.content-signature.mozilla.org-2025-07-30-19-19-34.chain'
+console.error: services.settings: 
+  main/top-sites local data was corrupted
+console.warn: services.settings: main/top-sites Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/top-sites Signature failed again InvalidSignatureError: Invalid content signature (main/top-sites) using 'remote-settings.content-signature.mozilla.org-2025-07-30-19-19-34.chain'
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/top-sites) using 'remote-settings.content-signature.mozilla.org-2025-07-30-19-19-34.chain'
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.sys.mjs:169:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1021:13
+
+console.error: services.settings: 
+  main/password-rules Signature failed  InvalidSignatureError: Invalid content signature (main/password-rules) using 'remote-settings.content-signature.mozilla.org-2025-07-10-19-04-54.chain'
+console.error: services.settings: 
+  main/password-rules local data was corrupted
+console.warn: services.settings: main/password-rules Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/password-rules Signature failed again InvalidSignatureError: Invalid content signature (main/password-rules) using 'remote-settings.content-signature.mozilla.org-2025-07-10-19-04-54.chain'
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/password-rules) using 'remote-settings.content-signature.mozilla.org-2025-07-10-19-04-54.chain'
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.sys.mjs:169:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1021:13
+
+console.error: services.settings: 
+  main/url-classifier-skip-urls Signature failed  InvalidSignatureError: Invalid content signature (main/url-classifier-skip-urls) using 'remote-settings.content-signature.mozilla.org-2025-07-10-19-04-54.chain'
+console.error: services.settings: 
+  main/url-classifier-skip-urls local data was corrupted
+console.warn: services.settings: main/url-classifier-skip-urls Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/url-classifier-skip-urls Signature failed again InvalidSignatureError: Invalid content signature (main/url-classifier-skip-urls) using 'remote-settings.content-signature.mozilla.org-2025-07-10-19-04-54.chain'
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/url-classifier-skip-urls) using 'remote-settings.content-signature.mozilla.org-2025-07-10-19-04-54.chain'
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.sys.mjs:169:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1021:13
+
+console.error: services.settings: 
+  main/websites-with-shared-credential-backends Signature failed  InvalidSignatureError: Invalid content signature (main/websites-with-shared-credential-backends) using 'remote-settings.content-signature.mozilla.org-2025-07-10-19-04-54.chain'
+console.error: services.settings: 
+  main/websites-with-shared-credential-backends local data was corrupted
+console.warn: services.settings: main/websites-with-shared-credential-backends Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/websites-with-shared-credential-backends Signature failed again InvalidSignatureError: Invalid content signature (main/websites-with-shared-credential-backends) using 'remote-settings.content-signature.mozilla.org-2025-07-10-19-04-54.chain'
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/websites-with-shared-credential-backends) using 'remote-settings.content-signature.mozilla.org-2025-07-10-19-04-54.chain'
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.sys.mjs:169:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1021:13
+
+console.error: services.settings: 
+  main/normandy-recipes-capabilities Signature failed  InvalidSignatureError: Invalid content signature (main/normandy-recipes-capabilities) using 'remote-settings.content-signature.mozilla.org-2025-07-10-19-04-54.chain'
+console.error: services.settings: 
+  main/normandy-recipes-capabilities local data was corrupted
+console.warn: services.settings: main/normandy-recipes-capabilities Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/normandy-recipes-capabilities Signature failed again InvalidSignatureError: Invalid content signature (main/normandy-recipes-capabilities) using 'remote-settings.content-signature.mozilla.org-2025-07-10-19-04-54.chain'
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/normandy-recipes-capabilities) using 'remote-settings.content-signature.mozilla.org-2025-07-10-19-04-54.chain'
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.sys.mjs:169:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1021:13
+
+console.error: services.settings: 
+  main/cookie-banner-rules-list Signature failed  InvalidSignatureError: Invalid content signature (main/cookie-banner-rules-list) using 'remote-settings.content-signature.mozilla.org-2025-07-10-19-04-54.chain'
+console.error: services.settings: 
+  main/cookie-banner-rules-list local data was corrupted
+console.warn: services.settings: main/cookie-banner-rules-list Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/cookie-banner-rules-list Signature failed again InvalidSignatureError: Invalid content signature (main/cookie-banner-rules-list) using 'remote-settings.content-signature.mozilla.org-2025-07-10-19-04-54.chain'
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/cookie-banner-rules-list) using 'remote-settings.content-signature.mozilla.org-2025-07-10-19-04-54.chain'
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.sys.mjs:169:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1021:13
+
+console.error: services.settings: 
+  main/search-config Signature failed  InvalidSignatureError: Invalid content signature (main/search-config) using 'remote-settings.content-signature.mozilla.org-2025-07-10-19-04-54.chain'
+console.error: services.settings: 
+  main/search-config local data was corrupted
+console.warn: services.settings: main/search-config Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/search-config Signature failed again InvalidSignatureError: Invalid content signature (main/search-config) using 'remote-settings.content-signature.mozilla.org-2025-07-10-19-04-54.chain'
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/search-config) using 'remote-settings.content-signature.mozilla.org-2025-07-10-19-04-54.chain'
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.sys.mjs:169:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1021:13
+
+console.error: services.settings: 
+  main/addons-manager-settings Signature failed  InvalidSignatureError: Invalid content signature (main/addons-manager-settings) using 'remote-settings.content-signature.mozilla.org-2025-07-10-19-04-54.chain'
+console.error: services.settings: 
+  main/addons-manager-settings local data was corrupted
+console.warn: services.settings: main/addons-manager-settings Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/addons-manager-settings Signature failed again InvalidSignatureError: Invalid content signature (main/addons-manager-settings) using 'remote-settings.content-signature.mozilla.org-2025-07-10-19-04-54.chain'
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/addons-manager-settings) using 'remote-settings.content-signature.mozilla.org-2025-07-10-19-04-54.chain'
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.sys.mjs:169:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1021:13
+
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers) using 'remote-settings.content-signature.mozilla.org-2025-07-30-19-19-34.chain'
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-providers Signature failed again InvalidSignatureError: Invalid content signature (main/doh-providers) using 'remote-settings.content-signature.mozilla.org-2025-07-30-19-19-34.chain'
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/doh-providers) using 'remote-settings.content-signature.mozilla.org-2025-07-30-19-19-34.chain'
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.sys.mjs:169:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1021:13
+
+console.error: services.settings: 
+  main/pioneer-study-addons-v1 Signature failed  InvalidSignatureError: Invalid content signature (main/pioneer-study-addons-v1) using 'remote-settings.content-signature.mozilla.org-2025-07-30-19-19-34.chain'
+console.error: services.settings: 
+  main/pioneer-study-addons-v1 local data was corrupted
+console.warn: services.settings: main/pioneer-study-addons-v1 Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/pioneer-study-addons-v1 Signature failed again InvalidSignatureError: Invalid content signature (main/pioneer-study-addons-v1) using 'remote-settings.content-signature.mozilla.org-2025-07-30-19-19-34.chain'
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/pioneer-study-addons-v1) using 'remote-settings.content-signature.mozilla.org-2025-07-30-19-19-34.chain'
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.sys.mjs:169:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1021:13
+
+console.warn: services.settings: main/hijack-blocklists Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/hijack-blocklists Signature failed again InvalidSignatureError: Invalid content signature (main/hijack-blocklists) using 'remote-settings.content-signature.mozilla.org-2025-07-30-19-19-34.chain'
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/hijack-blocklists) using 'remote-settings.content-signature.mozilla.org-2025-07-30-19-19-34.chain'
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.sys.mjs:169:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1021:13
+
+console.warn: services.settings: main/anti-tracking-url-decoration Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/anti-tracking-url-decoration Signature failed again InvalidSignatureError: Invalid content signature (main/anti-tracking-url-decoration) using 'remote-settings.content-signature.mozilla.org-2025-07-30-19-19-34.chain'
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/anti-tracking-url-decoration) using 'remote-settings.content-signature.mozilla.org-2025-07-30-19-19-34.chain'
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.sys.mjs:169:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1021:13
+
+console.error: (new InvalidSignatureError("Invalid content signature (blocklists/addons-bloomfilters) using 'remote-settings.content-signature.mozilla.org-2025-07-30-19-19-34.chain'", "resource://services-settings/RemoteSettingsClient.sys.mjs", 169))
+1749992631152	geckodriver	INFO	Listening on 127.0.0.1:50365
+1749992631156	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofile35KVew"
+/home/daniela/snap/code/common/.cache/gio-modules/libgiolibproxy.so: undefined symbol: g_task_set_name
+Failed to load module: /home/daniela/snap/code/common/.cache/gio-modules/libgiolibproxy.so
+/home/daniela/snap/code/common/.cache/gio-modules/libgiognomeproxy.so: undefined symbol: g_task_set_name
+Failed to load module: /home/daniela/snap/code/common/.cache/gio-modules/libgiognomeproxy.so
+/home/daniela/snap/code/common/.cache/gio-modules/libgiognutls.so: undefined symbol: g_task_set_name
+Failed to load module: /home/daniela/snap/code/common/.cache/gio-modules/libgiognutls.so
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: missing or old libva-drm library.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1749992631579	Marionette	INFO	Marionette enabled
+1749992631582	Marionette	INFO	Listening on port 35339
+Read port: 35339
+1749992631794	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  InvalidSignatureError: Invalid content signature (main/partitioning-exempt-urls) using 'remote-settings.content-signature.mozilla.org-2025-07-30-19-19-34.chain'
+console.error: services.settings: 
+  main/partitioning-exempt-urls local data was corrupted
+console.warn: services.settings: main/partitioning-exempt-urls Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed again InvalidSignatureError: Invalid content signature (main/partitioning-exempt-urls) using 'remote-settings.content-signature.mozilla.org-2025-07-30-19-19-34.chain'
+console.error: (new InvalidSignatureError("Invalid content signature (main/partitioning-exempt-urls) using 'remote-settings.content-signature.mozilla.org-2025-07-30-19-19-34.chain'", "resource://services-settings/RemoteSettingsClient.sys.mjs", 169))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+JavaScript warning: https://www.google.com/search?q=ISTQB+TAE+certification&sca_esv=fffd03f9f1eaa4ae&source=hp&ei=ucROaL6IAqO_hbIPz9DuiQ8&iflsig=AOw8s4IAAAAAaE7SyW0gbx4viArm6PWlyWI8gsePdbYj&ved=0ahUKEwj-yIHKvvONAxWjX0EAHU-oO_EQ4dUDCA4&uact=5&oq=ISTQB+TAE+certification&gs_lp=Egdnd3Mtd2l6IhdJU1RRQiBUQUUgY2VydGlmaWNhdGlvbkhRUABYSnAAeACQAQCYAQCgAQCqAQC4AQPIAQD4AQGYAgCgAgCYAwCSBwCgBwCyBwC4BwDCBwDIBwA&sclient=gws-wiz, line 7335: unreachable code after return statement
+JavaScript warning: https://www.google.com/search?q=ISTQB+TAE+certification&sca_esv=fffd03f9f1eaa4ae&source=hp&ei=ucROaL6IAqO_hbIPz9DuiQ8&iflsig=AOw8s4IAAAAAaE7SyW0gbx4viArm6PWlyWI8gsePdbYj&ved=0ahUKEwj-yIHKvvONAxWjX0EAHU-oO_EQ4dUDCA4&uact=5&oq=ISTQB+TAE+certification&gs_lp=Egdnd3Mtd2l6IhdJU1RRQiBUQUUgY2VydGlmaWNhdGlvbkhRUABYSnAAeACQAQCYAQCgAQCqAQC4AQPIAQD4AQGYAgCgAgCYAwCSBwCgBwCyBwC4BwDCBwDIBwA&sclient=gws-wiz, line 7335: unreachable code after return statement
+JavaScript warning: https://www.google.com/search?q=ISTQB+TAE+certification&sca_esv=fffd03f9f1eaa4ae&source=hp&ei=ucROaL6IAqO_hbIPz9DuiQ8&iflsig=AOw8s4IAAAAAaE7SyW0gbx4viArm6PWlyWI8gsePdbYj&ved=0ahUKEwj-yIHKvvONAxWjX0EAHU-oO_EQ4dUDCA4&uact=5&oq=ISTQB+TAE+certification&gs_lp=Egdnd3Mtd2l6IhdJU1RRQiBUQUUgY2VydGlmaWNhdGlvbkhRUABYSnAAeACQAQCYAQCgAQCqAQC4AQPIAQD4AQGYAgCgAgCYAwCSBwCgBwCyBwC4BwDCBwDIBwA&sclient=gws-wiz, line 7335: unreachable code after return statement
+JavaScript warning: https://www.google.com/search?q=ISTQB+TAE+certification&sca_esv=fffd03f9f1eaa4ae&source=hp&ei=ucROaL6IAqO_hbIPz9DuiQ8&iflsig=AOw8s4IAAAAAaE7SyW0gbx4viArm6PWlyWI8gsePdbYj&ved=0ahUKEwj-yIHKvvONAxWjX0EAHU-oO_EQ4dUDCA4&uact=5&oq=ISTQB+TAE+certification&gs_lp=Egdnd3Mtd2l6IhdJU1RRQiBUQUUgY2VydGlmaWNhdGlvbkhRUABYSnAAeACQAQCYAQCgAQCqAQC4AQPIAQD4AQGYAgCgAgCYAwCSBwCgBwCyBwC4BwDCBwDIBwA&sclient=gws-wiz, line 7335: unreachable code after return statement
+JavaScript warning: https://www.google.com/search?q=ISTQB+TAE+certification&sca_esv=fffd03f9f1eaa4ae&source=hp&ei=ucROaL6IAqO_hbIPz9DuiQ8&iflsig=AOw8s4IAAAAAaE7SyW0gbx4viArm6PWlyWI8gsePdbYj&ved=0ahUKEwj-yIHKvvONAxWjX0EAHU-oO_EQ4dUDCA4&uact=5&oq=ISTQB+TAE+certification&gs_lp=Egdnd3Mtd2l6IhdJU1RRQiBUQUUgY2VydGlmaWNhdGlvbkhRUABYSnAAeACQAQCYAQCgAQCqAQC4AQPIAQD4AQGYAgCgAgCYAwCSBwCgBwCyBwC4BwDCBwDIBwA&sclient=gws-wiz line 2 > eval, line 7335: unreachable code after return statement
+JavaScript warning: https://www.google.com/search?q=ISTQB+TAE+certification&sca_esv=fffd03f9f1eaa4ae&source=hp&ei=ucROaL6IAqO_hbIPz9DuiQ8&iflsig=AOw8s4IAAAAAaE7SyW0gbx4viArm6PWlyWI8gsePdbYj&ved=0ahUKEwj-yIHKvvONAxWjX0EAHU-oO_EQ4dUDCA4&uact=5&oq=ISTQB+TAE+certification&gs_lp=Egdnd3Mtd2l6IhdJU1RRQiBUQUUgY2VydGlmaWNhdGlvbkhRUABYSnAAeACQAQCYAQCgAQCqAQC4AQPIAQD4AQGYAgCgAgCYAwCSBwCgBwCyBwC4BwDCBwDIBwA&sclient=gws-wiz line 2 > eval, line 7335: unreachable code after return statement
+JavaScript warning: https://www.google.com/search?q=ISTQB+TAE+certification&sca_esv=fffd03f9f1eaa4ae&source=hp&ei=ucROaL6IAqO_hbIPz9DuiQ8&iflsig=AOw8s4IAAAAAaE7SyW0gbx4viArm6PWlyWI8gsePdbYj&ved=0ahUKEwj-yIHKvvONAxWjX0EAHU-oO_EQ4dUDCA4&uact=5&oq=ISTQB+TAE+certification&gs_lp=Egdnd3Mtd2l6IhdJU1RRQiBUQUUgY2VydGlmaWNhdGlvbkhRUABYSnAAeACQAQCYAQCgAQCqAQC4AQPIAQD4AQGYAgCgAgCYAwCSBwCgBwCyBwC4BwDCBwDIBwA&sclient=gws-wiz line 2 > eval, line 7335: unreachable code after return statement
+JavaScript warning: https://www.google.com/search?q=ISTQB+TAE+certification&sca_esv=fffd03f9f1eaa4ae&source=hp&ei=ucROaL6IAqO_hbIPz9DuiQ8&iflsig=AOw8s4IAAAAAaE7SyW0gbx4viArm6PWlyWI8gsePdbYj&ved=0ahUKEwj-yIHKvvONAxWjX0EAHU-oO_EQ4dUDCA4&uact=5&oq=ISTQB+TAE+certification&gs_lp=Egdnd3Mtd2l6IhdJU1RRQiBUQUUgY2VydGlmaWNhdGlvbkhRUABYSnAAeACQAQCYAQCgAQCqAQC4AQPIAQD4AQGYAgCgAgCYAwCSBwCgBwCyBwC4BwDCBwDIBwA&sclient=gws-wiz line 2 > eval line 7335 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.google.com/search?q=ISTQB+TAE+certification&sca_esv=fffd03f9f1eaa4ae&source=hp&ei=ucROaL6IAqO_hbIPz9DuiQ8&iflsig=AOw8s4IAAAAAaE7SyW0gbx4viArm6PWlyWI8gsePdbYj&ved=0ahUKEwj-yIHKvvONAxWjX0EAHU-oO_EQ4dUDCA4&uact=5&oq=ISTQB+TAE+certification&gs_lp=Egdnd3Mtd2l6IhdJU1RRQiBUQUUgY2VydGlmaWNhdGlvbkhRUABYSnAAeACQAQCYAQCgAQCqAQC4AQPIAQD4AQGYAgCgAgCYAwCSBwCgBwCyBwC4BwDCBwDIBwA&sclient=gws-wiz line 2 > eval line 7335 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.google.com/search?q=ISTQB+TAE+certification&sca_esv=fffd03f9f1eaa4ae&source=hp&ei=ucROaL6IAqO_hbIPz9DuiQ8&iflsig=AOw8s4IAAAAAaE7SyW0gbx4viArm6PWlyWI8gsePdbYj&ved=0ahUKEwj-yIHKvvONAxWjX0EAHU-oO_EQ4dUDCA4&uact=5&oq=ISTQB+TAE+certification&gs_lp=Egdnd3Mtd2l6IhdJU1RRQiBUQUUgY2VydGlmaWNhdGlvbkhRUABYSnAAeACQAQCYAQCgAQCqAQC4AQPIAQD4AQGYAgCgAgCYAwCSBwCgBwCyBwC4BwDCBwDIBwA&sclient=gws-wiz line 2 > eval line 7335 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.google.com/search?q=ISTQB+TAE+certification&sca_esv=fffd03f9f1eaa4ae&source=hp&ei=ucROaL6IAqO_hbIPz9DuiQ8&iflsig=AOw8s4IAAAAAaE7SyW0gbx4viArm6PWlyWI8gsePdbYj&ved=0ahUKEwj-yIHKvvONAxWjX0EAHU-oO_EQ4dUDCA4&uact=5&oq=ISTQB+TAE+certification&gs_lp=Egdnd3Mtd2l6IhdJU1RRQiBUQUUgY2VydGlmaWNhdGlvbkhRUABYSnAAeACQAQCYAQCgAQCqAQC4AQPIAQD4AQGYAgCgAgCYAwCSBwCgBwCyBwC4BwDCBwDIBwA&sclient=gws-wiz line 2 > eval line 7335 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
+1749992635209	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DISTQB%2BTAE%2Bcertification%26sca_esv%3Dfffd03f9f1eaa4ae%26source%3Dhp%26ei%3DucROaL6IAqO_hbIPz9DuiQ8%26iflsig%3DAOw8s4IAAAAAaE7SyW0gbx4viArm6PWlyWI8gsePdbYj%26ved%3D0ahUKEwj-yIHKvvONAxWjX0EAHU-oO_EQ4dUDCA4%26uact%3D5%26oq%3DISTQB%2BTAE%2Bcertification%26gs_lp%3DEgdnd3Mtd2l6IhdJU1RRQiBUQUUgY2VydGlmaWNhdGlvbkhRUABYSnAAeACQAQCYAQCgAQCqAQC4AQPIAQD4AQGYAgCgAgCYAwCSBwCgBwCyBwC4BwDCBwDIBwA%26sclient%3Dgws-wiz%26sei%3Du8ROaNCGA9PgkdUPmemGqQE&q=EgRTIWLgGLuJu8IGIjANaAkdJjTlGEe-8whQz4K8wlLtCpySokVPUdrV-4YdVtGFnsw3ObHTfKlOZMggESsyAVJaAUM, line 1: ReferenceError: solveSimpleChallenge is not defined
+1749992637026	Marionette	INFO	Stopped listening on port 35339
+[Child 24649, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 24649, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 24649, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 24649, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 24649, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 24649, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 24649, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 24649, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1749992657857	geckodriver	INFO	Listening on 127.0.0.1:45463
+1749992657860	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileGwOdcp"
+/home/daniela/snap/code/common/.cache/gio-modules/libgiolibproxy.so: undefined symbol: g_task_set_name
+Failed to load module: /home/daniela/snap/code/common/.cache/gio-modules/libgiolibproxy.so
+/home/daniela/snap/code/common/.cache/gio-modules/libgiognomeproxy.so: undefined symbol: g_task_set_name
+Failed to load module: /home/daniela/snap/code/common/.cache/gio-modules/libgiognomeproxy.so
+/home/daniela/snap/code/common/.cache/gio-modules/libgiognutls.so: undefined symbol: g_task_set_name
+Failed to load module: /home/daniela/snap/code/common/.cache/gio-modules/libgiognutls.so
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: missing or old libva-drm library.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1749992658282	Marionette	INFO	Marionette enabled
+1749992658285	Marionette	INFO	Listening on port 35929
+Read port: 35929
+1749992658399	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  InvalidSignatureError: Invalid content signature (main/partitioning-exempt-urls) using 'remote-settings.content-signature.mozilla.org-2025-07-30-19-19-34.chain'
+console.error: services.settings: 
+  main/partitioning-exempt-urls local data was corrupted
+console.warn: services.settings: main/partitioning-exempt-urls Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed again InvalidSignatureError: Invalid content signature (main/partitioning-exempt-urls) using 'remote-settings.content-signature.mozilla.org-2025-07-30-19-19-34.chain'
+console.error: (new InvalidSignatureError("Invalid content signature (main/partitioning-exempt-urls) using 'remote-settings.content-signature.mozilla.org-2025-07-30-19-19-34.chain'", "resource://services-settings/RemoteSettingsClient.sys.mjs", 169))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+JavaScript warning: https://www.google.com/search?q=ISTQB+TAE+certification&sca_esv=fffd03f9f1eaa4ae&source=hp&ei=08ROaJbhKaaqhbIP5-7JsQY&iflsig=AOw8s4IAAAAAaE7S4zHV7LokgcVqV3PibZ5faGmtkGFV&ved=0ahUKEwjWltzWvvONAxUmVUEAHWd3MmYQ4dUDCA4&uact=5&oq=ISTQB+TAE+certification&gs_lp=Egdnd3Mtd2l6IhdJU1RRQiBUQUUgY2VydGlmaWNhdGlvbkhXUABYUHAAeACQAQCYAQCgAQCqAQC4AQPIAQD4AQGYAgCgAgCYAwCSBwCgBwCyBwC4BwDCBwDIBwA&sclient=gws-wiz, line 2740: unreachable code after return statement
+JavaScript warning: https://www.google.com/search?q=ISTQB+TAE+certification&sca_esv=fffd03f9f1eaa4ae&source=hp&ei=08ROaJbhKaaqhbIP5-7JsQY&iflsig=AOw8s4IAAAAAaE7S4zHV7LokgcVqV3PibZ5faGmtkGFV&ved=0ahUKEwjWltzWvvONAxUmVUEAHWd3MmYQ4dUDCA4&uact=5&oq=ISTQB+TAE+certification&gs_lp=Egdnd3Mtd2l6IhdJU1RRQiBUQUUgY2VydGlmaWNhdGlvbkhXUABYUHAAeACQAQCYAQCgAQCqAQC4AQPIAQD4AQGYAgCgAgCYAwCSBwCgBwCyBwC4BwDCBwDIBwA&sclient=gws-wiz, line 2740: unreachable code after return statement
+JavaScript warning: https://www.google.com/search?q=ISTQB+TAE+certification&sca_esv=fffd03f9f1eaa4ae&source=hp&ei=08ROaJbhKaaqhbIP5-7JsQY&iflsig=AOw8s4IAAAAAaE7S4zHV7LokgcVqV3PibZ5faGmtkGFV&ved=0ahUKEwjWltzWvvONAxUmVUEAHWd3MmYQ4dUDCA4&uact=5&oq=ISTQB+TAE+certification&gs_lp=Egdnd3Mtd2l6IhdJU1RRQiBUQUUgY2VydGlmaWNhdGlvbkhXUABYUHAAeACQAQCYAQCgAQCqAQC4AQPIAQD4AQGYAgCgAgCYAwCSBwCgBwCyBwC4BwDCBwDIBwA&sclient=gws-wiz, line 2740: unreachable code after return statement
+JavaScript warning: https://www.google.com/search?q=ISTQB+TAE+certification&sca_esv=fffd03f9f1eaa4ae&source=hp&ei=08ROaJbhKaaqhbIP5-7JsQY&iflsig=AOw8s4IAAAAAaE7S4zHV7LokgcVqV3PibZ5faGmtkGFV&ved=0ahUKEwjWltzWvvONAxUmVUEAHWd3MmYQ4dUDCA4&uact=5&oq=ISTQB+TAE+certification&gs_lp=Egdnd3Mtd2l6IhdJU1RRQiBUQUUgY2VydGlmaWNhdGlvbkhXUABYUHAAeACQAQCYAQCgAQCqAQC4AQPIAQD4AQGYAgCgAgCYAwCSBwCgBwCyBwC4BwDCBwDIBwA&sclient=gws-wiz, line 2740: unreachable code after return statement
+JavaScript warning: https://www.google.com/search?q=ISTQB+TAE+certification&sca_esv=fffd03f9f1eaa4ae&source=hp&ei=08ROaJbhKaaqhbIP5-7JsQY&iflsig=AOw8s4IAAAAAaE7S4zHV7LokgcVqV3PibZ5faGmtkGFV&ved=0ahUKEwjWltzWvvONAxUmVUEAHWd3MmYQ4dUDCA4&uact=5&oq=ISTQB+TAE+certification&gs_lp=Egdnd3Mtd2l6IhdJU1RRQiBUQUUgY2VydGlmaWNhdGlvbkhXUABYUHAAeACQAQCYAQCgAQCqAQC4AQPIAQD4AQGYAgCgAgCYAwCSBwCgBwCyBwC4BwDCBwDIBwA&sclient=gws-wiz line 2 > eval, line 2740: unreachable code after return statement
+JavaScript warning: https://www.google.com/search?q=ISTQB+TAE+certification&sca_esv=fffd03f9f1eaa4ae&source=hp&ei=08ROaJbhKaaqhbIP5-7JsQY&iflsig=AOw8s4IAAAAAaE7S4zHV7LokgcVqV3PibZ5faGmtkGFV&ved=0ahUKEwjWltzWvvONAxUmVUEAHWd3MmYQ4dUDCA4&uact=5&oq=ISTQB+TAE+certification&gs_lp=Egdnd3Mtd2l6IhdJU1RRQiBUQUUgY2VydGlmaWNhdGlvbkhXUABYUHAAeACQAQCYAQCgAQCqAQC4AQPIAQD4AQGYAgCgAgCYAwCSBwCgBwCyBwC4BwDCBwDIBwA&sclient=gws-wiz line 2 > eval, line 2740: unreachable code after return statement
+JavaScript warning: https://www.google.com/search?q=ISTQB+TAE+certification&sca_esv=fffd03f9f1eaa4ae&source=hp&ei=08ROaJbhKaaqhbIP5-7JsQY&iflsig=AOw8s4IAAAAAaE7S4zHV7LokgcVqV3PibZ5faGmtkGFV&ved=0ahUKEwjWltzWvvONAxUmVUEAHWd3MmYQ4dUDCA4&uact=5&oq=ISTQB+TAE+certification&gs_lp=Egdnd3Mtd2l6IhdJU1RRQiBUQUUgY2VydGlmaWNhdGlvbkhXUABYUHAAeACQAQCYAQCgAQCqAQC4AQPIAQD4AQGYAgCgAgCYAwCSBwCgBwCyBwC4BwDCBwDIBwA&sclient=gws-wiz line 2 > eval, line 2740: unreachable code after return statement
+JavaScript warning: https://www.google.com/search?q=ISTQB+TAE+certification&sca_esv=fffd03f9f1eaa4ae&source=hp&ei=08ROaJbhKaaqhbIP5-7JsQY&iflsig=AOw8s4IAAAAAaE7S4zHV7LokgcVqV3PibZ5faGmtkGFV&ved=0ahUKEwjWltzWvvONAxUmVUEAHWd3MmYQ4dUDCA4&uact=5&oq=ISTQB+TAE+certification&gs_lp=Egdnd3Mtd2l6IhdJU1RRQiBUQUUgY2VydGlmaWNhdGlvbkhXUABYUHAAeACQAQCYAQCgAQCqAQC4AQPIAQD4AQGYAgCgAgCYAwCSBwCgBwCyBwC4BwDCBwDIBwA&sclient=gws-wiz line 2 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.google.com/search?q=ISTQB+TAE+certification&sca_esv=fffd03f9f1eaa4ae&source=hp&ei=08ROaJbhKaaqhbIP5-7JsQY&iflsig=AOw8s4IAAAAAaE7S4zHV7LokgcVqV3PibZ5faGmtkGFV&ved=0ahUKEwjWltzWvvONAxUmVUEAHWd3MmYQ4dUDCA4&uact=5&oq=ISTQB+TAE+certification&gs_lp=Egdnd3Mtd2l6IhdJU1RRQiBUQUUgY2VydGlmaWNhdGlvbkhXUABYUHAAeACQAQCYAQCgAQCqAQC4AQPIAQD4AQGYAgCgAgCYAwCSBwCgBwCyBwC4BwDCBwDIBwA&sclient=gws-wiz line 2 > eval line 2740 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.google.com/search?q=ISTQB+TAE+certification&sca_esv=fffd03f9f1eaa4ae&source=hp&ei=08ROaJbhKaaqhbIP5-7JsQY&iflsig=AOw8s4IAAAAAaE7S4zHV7LokgcVqV3PibZ5faGmtkGFV&ved=0ahUKEwjWltzWvvONAxUmVUEAHWd3MmYQ4dUDCA4&uact=5&oq=ISTQB+TAE+certification&gs_lp=Egdnd3Mtd2l6IhdJU1RRQiBUQUUgY2VydGlmaWNhdGlvbkhXUABYUHAAeACQAQCYAQCgAQCqAQC4AQPIAQD4AQGYAgCgAgCYAwCSBwCgBwCyBwC4BwDCBwDIBwA&sclient=gws-wiz line 2 > eval line 2740 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.google.com/search?q=ISTQB+TAE+certification&sca_esv=fffd03f9f1eaa4ae&source=hp&ei=08ROaJbhKaaqhbIP5-7JsQY&iflsig=AOw8s4IAAAAAaE7S4zHV7LokgcVqV3PibZ5faGmtkGFV&ved=0ahUKEwjWltzWvvONAxUmVUEAHWd3MmYQ4dUDCA4&uact=5&oq=ISTQB+TAE+certification&gs_lp=Egdnd3Mtd2l6IhdJU1RRQiBUQUUgY2VydGlmaWNhdGlvbkhXUABYUHAAeACQAQCYAQCgAQCqAQC4AQPIAQD4AQGYAgCgAgCYAwCSBwCgBwCyBwC4BwDCBwDIBwA&sclient=gws-wiz line 2 > eval line 2740 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
+1749992661909	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DISTQB%2BTAE%2Bcertification%26sca_esv%3Dfffd03f9f1eaa4ae%26source%3Dhp%26ei%3D08ROaJbhKaaqhbIP5-7JsQY%26iflsig%3DAOw8s4IAAAAAaE7S4zHV7LokgcVqV3PibZ5faGmtkGFV%26ved%3D0ahUKEwjWltzWvvONAxUmVUEAHWd3MmYQ4dUDCA4%26uact%3D5%26oq%3DISTQB%2BTAE%2Bcertification%26gs_lp%3DEgdnd3Mtd2l6IhdJU1RRQiBUQUUgY2VydGlmaWNhdGlvbkhXUABYUHAAeACQAQCYAQCgAQCqAQC4AQPIAQD4AQGYAgCgAgCYAwCSBwCgBwCyBwC4BwDCBwDIBwA%26sclient%3Dgws-wiz%26sei%3D1cROaJG5K7WfkdUP0KWV2As&q=EgRTIWLgGNWJu8IGIjAI9TSTxsZ6CkAwjDtPJpQ7cM1drjngNk2-HY1HKwhSsEt_0w-iHjMDMZr4YrEAkcAyAVJaAUM, line 1: ReferenceError: solveSimpleChallenge is not defined
+[Child 25046, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 25046, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 25046, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 25046, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 25046, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 25046, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 25046, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 25046, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+1749992674874	Marionette	INFO	Stopped listening on port 35929
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1749992681696	geckodriver::marionette	ERROR	Failed to close browser connection: Transport endpoint is not connected (os error 107)
+1749993471001	geckodriver	INFO	Listening on 127.0.0.1:51863
+1749993471004	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileMHv0b0"
+/home/daniela/snap/code/common/.cache/gio-modules/libgiolibproxy.so: undefined symbol: g_task_set_name
+Failed to load module: /home/daniela/snap/code/common/.cache/gio-modules/libgiolibproxy.so
+/home/daniela/snap/code/common/.cache/gio-modules/libgiognomeproxy.so: undefined symbol: g_task_set_name
+Failed to load module: /home/daniela/snap/code/common/.cache/gio-modules/libgiognomeproxy.so
+/home/daniela/snap/code/common/.cache/gio-modules/libgiognutls.so: undefined symbol: g_task_set_name
+Failed to load module: /home/daniela/snap/code/common/.cache/gio-modules/libgiognutls.so
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: missing or old libva-drm library.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1749993471426	Marionette	INFO	Marionette enabled
+1749993471429	Marionette	INFO	Listening on port 42071
+Read port: 42071
+1749993471682	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://duckduckgo.com."
+1749993495254	Marionette	INFO	Stopped listening on port 42071
+[Child 25673, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 25673, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 25673, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 25673, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 25673, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 25673, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 25673, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 25673, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+[Child 24269, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 24269, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 24269, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 24269, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 24269, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 24269, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 24269, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 24269, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1749994284296	Marionette	INFO	Stopped listening on port 36827
