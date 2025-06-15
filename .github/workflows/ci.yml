@@ -23,7 +23,7 @@ jobs:
     - name: Install Firefox and Geckodriver manually
       run: |
         FIREFOX_VERSION=115.0
-        GECKODRIVER_VERSION=v0.33.0
+        GECKODRIVER_VERSION=v0.36.0
 
         wget -q "https://ftp.mozilla.org/pub/firefox/releases/${FIREFOX_VERSION}/linux-x86_64/en-US/firefox-${FIREFOX_VERSION}.tar.bz2"
         tar -xjf "firefox-${FIREFOX_VERSION}.tar.bz2"
